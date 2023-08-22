@@ -22,7 +22,7 @@ int get_size_of_int_array(int inputs, char *data_array[]) {
 	
 	printf("inputs length: %d\n", inputs);	
 
-	for (i = 0; i < inputs; i++) {
+	for (i = 1; i < inputs; i++) {
 		printf("%s ", data_array[i]);
 	}
 	printf("\n");	
